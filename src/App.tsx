@@ -25,7 +25,7 @@ const FOOTER_RIGHT: string[] = []
 
 const BG_URL =
   'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260729_022513_486985a2-ac8c-4278-91a8-071dcd9fcaff.png&w=1280&q=85'
-const PORTRAIT_URL = '/portrait.png'
+const PORTRAIT_URL = `${import.meta.env.BASE_URL}portrait.png`
 // ────────────────────────────────────────────────────────────────────────────
 
 const DRAWER_EASE = 'cubic-bezier(0.76, 0, 0.24, 1)'
